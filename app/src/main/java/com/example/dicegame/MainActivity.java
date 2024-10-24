@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         int[] diceRes = new int[5];
 
         for (int i = 0; i < 5; i++) {
-            diceRes[i] = rand.nextInt(6) + 1; // Numbers between 1 and 6
+            diceRes[i] = rand.nextInt(6) + 1; 
         }
 
         displayDiceResults(diceRes);
